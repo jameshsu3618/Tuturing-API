@@ -1,0 +1,6 @@
+${Ansi.DEFAULT} _   _           _____                    _ ${Ansi.RED}        -=\`\
+${Ansi.DEFAULT}${Ansi.RED}    |\ ____\_\__
+${Ansi.DEFAULT}${Ansi.RED}  -=\c`""""""" "`)
+${Ansi.DEFAULT}${Ansi.RED}     `~~~~~/ /~~`
+${Ansi.DEFAULT}${Ansi.RED}       -==/./
+${Ansi.GREEN}::  API Server (version: ${application.version}) ::${Ansi.DEFAULT}

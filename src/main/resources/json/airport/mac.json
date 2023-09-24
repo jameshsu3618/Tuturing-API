@@ -1,0 +1,1669 @@
+{
+  "cities": [
+    {
+      "iataCode": "AUH",
+      "name": "Abu Dhabi",
+      "countryCode": "AE",
+      "countryName": "United Arab Emirates",
+      "regionName": "Middle East",
+      "airports": [
+        {
+          "iataCode": "AUH",
+          "name": "Abu Dhabi Intl"
+        },
+        {
+          "iataCode": "AZI",
+          "name": "Bateen"
+        }
+      ]
+    },
+    {
+      "iataCode": "ALY",
+      "name": "Alexandria",
+      "countryCode": "EG",
+      "countryName": "Egypt",
+      "regionName": "Middle East",
+      "airports": [
+        {
+          "iataCode": "HBE",
+          "name": "Borg El Arab"
+        },
+        {
+          "iataCode": "ALY",
+          "name": "El Nohza"
+        }
+      ]
+    },
+    {
+      "iataCode": "LTS",
+      "name": "Altus",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "AXS",
+          "name": "Municipal"
+        }
+      ]
+    },
+    {
+      "iataCode": "ANK",
+      "name": "Ankara",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "ESB",
+          "name": "Esenboga"
+        }
+      ]
+    },
+    {
+      "iataCode": "AIY",
+      "name": "Atlantic City",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "ACY",
+          "name": "Atlantic City International Airport"
+        },
+        {
+          "iataCode": "AIY",
+          "name": "Bader Field"
+        }
+      ]
+    },
+    {
+      "iataCode": "BAK",
+      "name": "Baku",
+      "countryCode": "AZ",
+      "countryName": "Azerbaijan",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "GYD",
+          "name": "Heydar Aliyev"
+        },
+        {
+          "iataCode": "ZXT",
+          "name": "Zabrat"
+        }
+      ]
+    },
+    {
+      "iataCode": "BKK",
+      "name": "Bangkok",
+      "countryCode": "TH",
+      "countryName": "Thailand",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "DMK",
+          "name": "Don Mueang"
+        },
+        {
+          "iataCode": "BKK",
+          "name": "International"
+        }
+      ]
+    },
+    {
+      "iataCode": "EAP",
+      "name": "Basel",
+      "countryCode": "CH",
+      "countryName": "Switzerland",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "MLH",
+          "name": "Euroairport French"
+        },
+        {
+          "iataCode": "BSL",
+          "name": "Euroairport Swiss"
+        }
+      ]
+    },
+    {
+      "iataCode": "BJS",
+      "name": "Beijing",
+      "countryCode": "CN",
+      "countryName": "China",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "PEK",
+          "name": "Capital"
+        }
+      ]
+    },
+    {
+      "iataCode": "BFS",
+      "name": "Belfast",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "BHD",
+          "name": "Belfast City Airport"
+        },
+        {
+          "iataCode": "BFS",
+          "name": "Belfast Intl Arpt"
+        }
+      ]
+    },
+    {
+      "iataCode": "BHZ",
+      "name": "Belo Horizonte",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "regionName": "Latin America",
+      "airports": [
+        {
+          "iataCode": "PLU",
+          "name": "Pampulha"
+        },
+        {
+          "iataCode": "CNF",
+          "name": "Tancredo Neves Int'l."
+        }
+      ]
+    },
+    {
+      "iataCode": "BER",
+      "name": "Berlin",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "BER",
+          "name": "Berlin Metropolitan Area"
+        },
+        {
+          "iataCode": "SXF",
+          "name": "Schoenefeld"
+        },
+        {
+          "iataCode": "TXL",
+          "name": "Tegel"
+        }
+      ]
+    },
+    {
+      "iataCode": "BXN",
+      "name": "Bodrum",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "BXN",
+          "name": "Imsik Airport"
+        },
+        {
+          "iataCode": "BJV",
+          "name": "Milas Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "BRU",
+      "name": "Brussels",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "CRL",
+          "name": "Charleroi Brussels So"
+        },
+        {
+          "iataCode": "BRU",
+          "name": "National"
+        }
+      ]
+    },
+    {
+      "iataCode": "BUH",
+      "name": "Bucharest",
+      "countryCode": "RO",
+      "countryName": "Romania",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "BBU",
+          "name": "Baneasa"
+        },
+        {
+          "iataCode": "OTP",
+          "name": "Otopeni International"
+        }
+      ]
+    },
+    {
+      "iataCode": "BUE",
+      "name": "Buenos Aires",
+      "countryCode": "AR",
+      "countryName": "Argentina",
+      "regionName": "Latin America",
+      "airports": [
+        {
+          "iataCode": "EZE",
+          "name": "Ministro Pistarini"
+        }
+      ]
+    },
+    {
+      "iataCode": "CAS",
+      "name": "Casablanca",
+      "countryCode": "MA",
+      "countryName": "Morocco",
+      "regionName": "Africa",
+      "airports": [
+        {
+          "iataCode": "CMN",
+          "name": "Mohamed V"
+        }
+      ]
+    },
+    {
+      "iataCode": "WCA",
+      "name": "Castro",
+      "countryCode": "CL",
+      "countryName": "Chile",
+      "regionName": "Latin America",
+      "airports": [
+        {
+          "iataCode": "WCA",
+          "name": "Gamboa"
+        },
+        {
+          "iataCode": "MHC",
+          "name": "Mocopulli"
+        }
+      ]
+    },
+    {
+      "iataCode": "CHI",
+      "name": "Chicago",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "MDW",
+          "name": "Chicago Midway International Airport"
+        },
+        {
+          "iataCode": "ORD",
+          "name": "Chicago O'Hare International Airport"
+        },
+        {
+          "iataCode": "DPA",
+          "name": "Dupage County"
+        },
+        {
+          "iataCode": "RFD",
+          "name": "Greater Rockford"
+        },
+        {
+          "iataCode": "PWK",
+          "name": "Pal-Waukee"
+        },
+        {
+          "iataCode": "GYY",
+          "name": "Regional"
+        }
+      ]
+    },
+    {
+      "iataCode": "CVG",
+      "name": "Cincinnati",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "CVG",
+          "name": "Cincinnati Northern Kentucky Internation"
+        },
+        {
+          "iataCode": "LUK",
+          "name": "Municipal"
+        }
+      ]
+    },
+    {
+      "iataCode": "CSM",
+      "name": "Clinton",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "CLK",
+          "name": "Municipal"
+        }
+      ]
+    },
+    {
+      "iataCode": "CGN",
+      "name": "Cologne",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "CGN",
+          "name": "Cologne/Bonn"
+        }
+      ]
+    },
+    {
+      "iataCode": "QDF",
+      "name": "Dallas - Fort Worth",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "DAL",
+          "name": "Dallas Love Field"
+        },
+        {
+          "iataCode": "DFW",
+          "name": "Dallas/Fort Worth International Airport"
+        },
+        {
+          "iataCode": "AFW",
+          "name": "Fort Worth Alliance"
+        },
+        {
+          "iataCode": "FTW",
+          "name": "Meacham Field"
+        }
+      ]
+    },
+    {
+      "iataCode": "DTT",
+      "name": "Detroit",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "DET",
+          "name": "Detroit City"
+        },
+        {
+          "iataCode": "DTW",
+          "name": "Detroit Metropolitan Wayne County Airpor"
+        },
+        {
+          "iataCode": "ARB",
+          "name": "Municipal"
+        },
+        {
+          "iataCode": "YIP",
+          "name": "Willow Run"
+        }
+      ]
+    },
+    {
+      "iataCode": "DXB",
+      "name": "Dubai",
+      "countryCode": "AE",
+      "countryName": "United Arab Emirates",
+      "regionName": "Middle East",
+      "airports": [
+        {
+          "iataCode": "DWC",
+          "name": "Al Maktoum"
+        },
+        {
+          "iataCode": "DXB",
+          "name": "Dubai International Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "DUS",
+      "name": "Dusseldorf",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "DUS",
+          "name": "International"
+        },
+        {
+          "iataCode": "MGL",
+          "name": "Moenchen-Gl. - Dus Exp"
+        },
+        {
+          "iataCode": "NRN",
+          "name": "Weeze"
+        }
+      ]
+    },
+    {
+      "iataCode": "YEA",
+      "name": "Edmonton",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "YEG",
+          "name": "International"
+        },
+        {
+          "iataCode": "YXD",
+          "name": "Municipal"
+        }
+      ]
+    },
+    {
+      "iataCode": "ENS",
+      "name": "Enschede",
+      "countryCode": "NL",
+      "countryName": "Netherlands",
+      "regionName": "Europe",
+      "airports": []
+    },
+    {
+      "iataCode": "FYV",
+      "name": "Fayetteville",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "FYV",
+          "name": "Municipal (Drake Fld)"
+        },
+        {
+          "iataCode": "XNA",
+          "name": "Northwest Arkansas Regional Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "FLR",
+      "name": "Florence",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "FLR",
+          "name": "Peretola"
+        }
+      ]
+    },
+    {
+      "iataCode": "FMY",
+      "name": "Fort Myers",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "RSW",
+          "name": "Fort Myers Southwest Florida Internation"
+        },
+        {
+          "iataCode": "FMY",
+          "name": "Page Field"
+        }
+      ]
+    },
+    {
+      "iataCode": "HAR",
+      "name": "Harrisburg",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "MDT",
+          "name": "Harrisburg International Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "HFD",
+      "name": "Hartford",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "BDL",
+          "name": "Bradley International Airport"
+        },
+        {
+          "iataCode": "HFD",
+          "name": "Brainard"
+        }
+      ]
+    },
+    {
+      "iataCode": "QHO",
+      "name": "Houston",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "EFD",
+          "name": "Ellington Field"
+        },
+        {
+          "iataCode": "IAH",
+          "name": "Houston George Bush Intercontinental Air"
+        },
+        {
+          "iataCode": "SGR",
+          "name": "Sugar Land Municipal"
+        },
+        {
+          "iataCode": "HOU",
+          "name": "William P Hobby Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "IST",
+      "name": "Istanbul",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "IST",
+          "name": "Ataturk"
+        },
+        {
+          "iataCode": "SAW",
+          "name": "Sabilha Gokcen"
+        }
+      ]
+    },
+    {
+      "iataCode": "IZM",
+      "name": "Izmir",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "ADB",
+          "name": "Adnan Menderes Arpt"
+        },
+        {
+          "iataCode": "IGL",
+          "name": "Cigli Military Arpt"
+        }
+      ]
+    },
+    {
+      "iataCode": "JKT",
+      "name": "Jakarta",
+      "countryCode": "ID",
+      "countryName": "Indonesia",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "HLP",
+          "name": "Halim Perdana Kusuma"
+        },
+        {
+          "iataCode": "CGK",
+          "name": "Soekarno-Hatta Intl"
+        }
+      ]
+    },
+    {
+      "iataCode": "MKC",
+      "name": "Kansas City",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "MKC",
+          "name": "Downtown"
+        },
+        {
+          "iataCode": "MCI",
+          "name": "Kansas City International Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "IEV",
+      "name": "Kiev",
+      "countryCode": "UA",
+      "countryName": "Ukraine",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "KBP",
+          "name": "Borispol"
+        },
+        {
+          "iataCode": "IEV",
+          "name": "Zhulhany"
+        }
+      ]
+    },
+    {
+      "iataCode": "ILE",
+      "name": "Killeen",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "ILE",
+          "name": "Municipal"
+        }
+      ]
+    },
+    {
+      "iataCode": "KUL",
+      "name": "Kuala Lumpur",
+      "countryCode": "MY",
+      "countryName": "Malaysia",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "KUL",
+          "name": "Kuala Lumpur Int'l"
+        },
+        {
+          "iataCode": "SZB",
+          "name": "Sultan Abdul Aziz Shah"
+        }
+      ]
+    },
+    {
+      "iataCode": "LIL",
+      "name": "Lille",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "LIL",
+          "name": "Lesquin"
+        }
+      ]
+    },
+    {
+      "iataCode": "LNZ",
+      "name": "Linz",
+      "countryCode": "AT",
+      "countryName": "Austria",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "LNZ",
+          "name": "Hoersching"
+        }
+      ]
+    },
+    {
+      "iataCode": "LON",
+      "name": "London",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "BQH",
+          "name": "Biggin Hill"
+        },
+        {
+          "iataCode": "LGW",
+          "name": "Gatwick"
+        },
+        {
+          "iataCode": "LHR",
+          "name": "Heathrow"
+        },
+        {
+          "iataCode": "LCY",
+          "name": "London City Airport"
+        },
+        {
+          "iataCode": "LTN",
+          "name": "Luton Airport"
+        },
+        {
+          "iataCode": "SEN",
+          "name": "Municipal"
+        },
+        {
+          "iataCode": "STN",
+          "name": "Stansted"
+        }
+      ]
+    },
+    {
+      "iataCode": "LYS",
+      "name": "Lyon",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "LYN",
+          "name": "Bron"
+        },
+        {
+          "iataCode": "GNB",
+          "name": "Saint Geoirs"
+        },
+        {
+          "iataCode": "LYS",
+          "name": "Satolas"
+        }
+      ]
+    },
+    {
+      "iataCode": "MMA",
+      "name": "Malmo",
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "MMX",
+          "name": "Sturup"
+        }
+      ]
+    },
+    {
+      "iataCode": "MES",
+      "name": "Medan",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "KNO",
+          "name": "Knokke/Het Zoute"
+        },
+        {
+          "iataCode": "MES",
+          "name": "Polania"
+        }
+      ]
+    },
+    {
+      "iataCode": "MEL",
+      "name": "Melbourne",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "AVV",
+          "name": "Avalon"
+        },
+        {
+          "iataCode": "MEB",
+          "name": "Essendon"
+        },
+        {
+          "iataCode": "MBW",
+          "name": "Moorabbin"
+        },
+        {
+          "iataCode": "MEL",
+          "name": "Tullamarine"
+        }
+      ]
+    },
+    {
+      "iataCode": "MIL",
+      "name": "Milan",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "LIN",
+          "name": "Linate"
+        },
+        {
+          "iataCode": "MXP",
+          "name": "Malpensa"
+        },
+        {
+          "iataCode": "BGY",
+          "name": "Orio Al Serio"
+        },
+        {
+          "iataCode": "PMF",
+          "name": "Parma"
+        }
+      ]
+    },
+    {
+      "iataCode": "MLW",
+      "name": "Monrovia",
+      "countryCode": "LR",
+      "countryName": "Liberia",
+      "regionName": "Africa",
+      "airports": [
+        {
+          "iataCode": "ROB",
+          "name": "Roberts Intl"
+        },
+        {
+          "iataCode": "MLW",
+          "name": "Sprigg Payne"
+        }
+      ]
+    },
+    {
+      "iataCode": "YMQ",
+      "name": "Montreal",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "YMX",
+          "name": "Mirabel"
+        },
+        {
+          "iataCode": "YUL",
+          "name": "Pierre Elliott Trudeau"
+        },
+        {
+          "iataCode": "YHU",
+          "name": "St Hubert"
+        }
+      ]
+    },
+    {
+      "iataCode": "MOW",
+      "name": "Moscow",
+      "countryCode": "RU",
+      "countryName": "Russian Federation",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "BKA",
+          "name": "Bykovo"
+        },
+        {
+          "iataCode": "DME",
+          "name": "Domodedovo"
+        },
+        {
+          "iataCode": "SVO",
+          "name": "Sheremetyevo"
+        },
+        {
+          "iataCode": "VKO",
+          "name": "Vnukovo"
+        }
+      ]
+    },
+    {
+      "iataCode": "NYC",
+      "name": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "JFK",
+          "name": "John F. Kennedy International Airport"
+        },
+        {
+          "iataCode": "LGA",
+          "name": "LaGuardia Airport"
+        },
+        {
+          "iataCode": "EWR",
+          "name": "Newark Liberty International Airport"
+        },
+        {
+          "iataCode": "SWF",
+          "name": "Stewart International Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "NHA",
+      "name": "Nha Trang",
+      "countryCode": "VN",
+      "countryName": "Viet Nam",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "CXR",
+          "name": "Cam Ranh International"
+        }
+      ]
+    },
+    {
+      "iataCode": "NQT",
+      "name": "Nottingham",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "EMA",
+          "name": "East Midlands"
+        },
+        {
+          "iataCode": "NQT",
+          "name": "Nottingham Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "ORL",
+      "name": "Orlando",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "ORL",
+          "name": "Herndon"
+        },
+        {
+          "iataCode": "MCO",
+          "name": "Orlando International Airport"
+        },
+        {
+          "iataCode": "SFB",
+          "name": "Orlando Sanford"
+        },
+        {
+          "iataCode": "DWS",
+          "name": "Walt Disney World"
+        }
+      ]
+    },
+    {
+      "iataCode": "OSA",
+      "name": "Osaka",
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "ITM",
+          "name": "Itami"
+        },
+        {
+          "iataCode": "KIX",
+          "name": "Kansai International"
+        },
+        {
+          "iataCode": "UKB",
+          "name": "Kobe"
+        }
+      ]
+    },
+    {
+      "iataCode": "OSL",
+      "name": "Oslo",
+      "countryCode": "NO",
+      "countryName": "Norway",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "RYG",
+          "name": "Moss-Rygge"
+        },
+        {
+          "iataCode": "OSL",
+          "name": "Oslo Airport"
+        },
+        {
+          "iataCode": "TRF",
+          "name": "Sandefjord"
+        }
+      ]
+    },
+    {
+      "iataCode": "YOW",
+      "name": "Ottawa",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "YND",
+          "name": "Gatineau"
+        },
+        {
+          "iataCode": "YOW",
+          "name": "International"
+        },
+        {
+          "iataCode": "YRO",
+          "name": "Rockcliffe St"
+        }
+      ]
+    },
+    {
+      "iataCode": "PFN",
+      "name": "Panama City",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "PFN",
+          "name": "Bay County"
+        },
+        {
+          "iataCode": "ECP",
+          "name": "Northwest Florida Beaches International"
+        }
+      ]
+    },
+    {
+      "iataCode": "PAR",
+      "name": "Paris",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "BVA",
+          "name": "Beauvais-Tille Airport"
+        },
+        {
+          "iataCode": "CDG",
+          "name": "Ch. De Gaulle"
+        },
+        {
+          "iataCode": "LBG",
+          "name": "Le Bourget"
+        },
+        {
+          "iataCode": "ORY",
+          "name": "Orly"
+        },
+        {
+          "iataCode": "POX",
+          "name": "Paris Cergy Pontoise"
+        },
+        {
+          "iataCode": "XCR",
+          "name": "Vatry Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "QPH",
+      "name": "Philadelphia",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "MUV",
+          "name": "Mustin Airfield"
+        },
+        {
+          "iataCode": "PNE",
+          "name": "North Philadelphia"
+        },
+        {
+          "iataCode": "PHL",
+          "name": "Philadelphia International Airport"
+        },
+        {
+          "iataCode": "TTN",
+          "name": "Trenton-Mercer"
+        }
+      ]
+    },
+    {
+      "iataCode": "REK",
+      "name": "Reykjavik",
+      "countryCode": "IS",
+      "countryName": "Iceland",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "KEF",
+          "name": "Keflavik International"
+        },
+        {
+          "iataCode": "RKV",
+          "name": "Reykjavik Domestic"
+        }
+      ]
+    },
+    {
+      "iataCode": "RIO",
+      "name": "Rio De Janeiro",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "regionName": "Latin America",
+      "airports": [
+        {
+          "iataCode": "GIG",
+          "name": "Internacional"
+        },
+        {
+          "iataCode": "SDU",
+          "name": "Santos Dumont"
+        }
+      ]
+    },
+    {
+      "iataCode": "ROM",
+      "name": "Rome",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "CIA",
+          "name": "Ciampino"
+        },
+        {
+          "iataCode": "FCO",
+          "name": "Fiumicino"
+        }
+      ]
+    },
+    {
+      "iataCode": "SSX",
+      "name": "Samsun",
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "SZF",
+          "name": "Carsamba"
+        }
+      ]
+    },
+    {
+      "iataCode": "SRZ",
+      "name": "Santa Cruz",
+      "countryCode": "BO",
+      "countryName": "Bolivia",
+      "regionName": "Latin America",
+      "airports": [
+        {
+          "iataCode": "SRZ",
+          "name": "El Trompillo"
+        },
+        {
+          "iataCode": "VVI",
+          "name": "Viru Viru Intl"
+        }
+      ]
+    },
+    {
+      "iataCode": "SAO",
+      "name": "Sao Paulo",
+      "countryCode": "BR",
+      "countryName": "Brazil",
+      "regionName": "Latin America",
+      "airports": [
+        {
+          "iataCode": "CGH",
+          "name": "Congonhas"
+        },
+        {
+          "iataCode": "GRU",
+          "name": "Guarulhos Intl"
+        },
+        {
+          "iataCode": "VCP",
+          "name": "Viracopos"
+        }
+      ]
+    },
+    {
+      "iataCode": "SPK",
+      "name": "Sapporo",
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "CTS",
+          "name": "Chitose"
+        },
+        {
+          "iataCode": "OKD",
+          "name": "Okadama"
+        }
+      ]
+    },
+    {
+      "iataCode": "SSM",
+      "name": "Sault Ste Marie",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "CIU",
+          "name": "Chippewa County"
+        }
+      ]
+    },
+    {
+      "iataCode": "SEA",
+      "name": "Seattle",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "BFI",
+          "name": "Boeing Fld Intl"
+        },
+        {
+          "iataCode": "SEA",
+          "name": "Seattle Tacoma International Airport"
+        },
+        {
+          "iataCode": "PAE",
+          "name": "Snohomish County"
+        }
+      ]
+    },
+    {
+      "iataCode": "SEL",
+      "name": "Seoul",
+      "countryCode": "KR",
+      "countryName": "Korea - Republic Of",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "GMP",
+          "name": "Gimpo Int'l"
+        },
+        {
+          "iataCode": "ICN",
+          "name": "Incheon Int'l Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "SHA",
+      "name": "Shanghai",
+      "countryCode": "CN",
+      "countryName": "China",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "SHA",
+          "name": "Hongqiao"
+        },
+        {
+          "iataCode": "PVG",
+          "name": "Pu Dong"
+        }
+      ]
+    },
+    {
+      "iataCode": "SDZ",
+      "name": "Shetland Islands",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "LWK",
+          "name": "Lerwick/Tingwall"
+        },
+        {
+          "iataCode": "SCS",
+          "name": "Scatsta"
+        },
+        {
+          "iataCode": "LSI",
+          "name": "Sumburgh"
+        }
+      ]
+    },
+    {
+      "iataCode": "SFY",
+      "name": "Springfield",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": []
+    },
+    {
+      "iataCode": "STX",
+      "name": "St Croix Island",
+      "countryCode": "VI",
+      "countryName": "Virgin Islands (U.S.)",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "STX",
+          "name": "Henry E. Rohlsen Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "SLU",
+      "name": "St Lucia",
+      "countryCode": "LC",
+      "countryName": "Saint Lucia",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "UVF",
+          "name": "Hewanorra"
+        },
+        {
+          "iataCode": "SLU",
+          "name": "Vigie"
+        }
+      ]
+    },
+    {
+      "iataCode": "SBS",
+      "name": "Steamboat Springs",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "SBS",
+          "name": "Steamboat Springs"
+        },
+        {
+          "iataCode": "HDN",
+          "name": "Yampa Valley Regional Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "STO",
+      "name": "Stockholm",
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "ARN",
+          "name": "Arlanda"
+        },
+        {
+          "iataCode": "BMA",
+          "name": "Bromma"
+        },
+        {
+          "iataCode": "NYO",
+          "name": "Skavsta"
+        },
+        {
+          "iataCode": "VST",
+          "name": "Vasteras/Hasslo"
+        }
+      ]
+    },
+    {
+      "iataCode": "SXB",
+      "name": "Strasbourg",
+      "countryCode": "FR",
+      "countryName": "France",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "SXB",
+          "name": "Entzheim"
+        }
+      ]
+    },
+    {
+      "iataCode": "STR",
+      "name": "Stuttgart",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "STR",
+          "name": "Echterdingen"
+        }
+      ]
+    },
+    {
+      "iataCode": "TPE",
+      "name": "Taipei",
+      "countryCode": "TW",
+      "countryName": "Taiwan",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "TPE",
+          "name": "Chiang Kai Shek"
+        },
+        {
+          "iataCode": "TSA",
+          "name": "Sung Shan"
+        }
+      ]
+    },
+    {
+      "iataCode": "QUF",
+      "name": "Tallinn",
+      "countryCode": "EE",
+      "countryName": "Estonia",
+      "regionName": "Europe",
+      "airports": []
+    },
+    {
+      "iataCode": "TPA",
+      "name": "Tampa - St Petersburg",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "PIE",
+          "name": "International"
+        },
+        {
+          "iataCode": "TPF",
+          "name": "Peter O'knight"
+        },
+        {
+          "iataCode": "TPA",
+          "name": "Tampa International Airport"
+        },
+        {
+          "iataCode": "KYO",
+          "name": "Topp Of Tampa"
+        }
+      ]
+    },
+    {
+      "iataCode": "THR",
+      "name": "Tehran",
+      "countryCode": "IR",
+      "countryName": "Iran (Islamic Republic Of)",
+      "regionName": "Middle East",
+      "airports": [
+        {
+          "iataCode": "IKA",
+          "name": "Imam Khomeini"
+        },
+        {
+          "iataCode": "THR",
+          "name": "Mehrabad"
+        }
+      ]
+    },
+    {
+      "iataCode": "TCI",
+      "name": "Tenerife",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "TFN",
+          "name": "Norte Los Rodeos"
+        },
+        {
+          "iataCode": "TFS",
+          "name": "Sur Reina Sofia"
+        }
+      ]
+    },
+    {
+      "iataCode": "TYO",
+      "name": "Tokyo",
+      "countryCode": "JP",
+      "countryName": "Japan",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "HND",
+          "name": "Haneda"
+        },
+        {
+          "iataCode": "NRT",
+          "name": "Narita"
+        }
+      ]
+    },
+    {
+      "iataCode": "YTO",
+      "name": "Toronto",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "YKZ",
+          "name": "Buttonville"
+        },
+        {
+          "iataCode": "YHM",
+          "name": "Hamilton"
+        },
+        {
+          "iataCode": "YKF",
+          "name": "Kitchener-Waterloo Reg"
+        },
+        {
+          "iataCode": "YYZ",
+          "name": "Pearson International"
+        },
+        {
+          "iataCode": "YTZ",
+          "name": "Toronto Island"
+        }
+      ]
+    },
+    {
+      "iataCode": "ULY",
+      "name": "Ulyanovsk",
+      "countryCode": "RU",
+      "countryName": "Russian Federation",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "ULV",
+          "name": "Ulyanovsk"
+        },
+        {
+          "iataCode": "ULY",
+          "name": "Ulyanovsk East"
+        }
+      ]
+    },
+    {
+      "iataCode": "VIE",
+      "name": "Vienna",
+      "countryCode": "AT",
+      "countryName": "Austria",
+      "regionName": "Europe",
+      "airports": [
+        {
+          "iataCode": "VIE",
+          "name": "Vienna International"
+        }
+      ]
+    },
+    {
+      "iataCode": "WAS",
+      "name": "Washington",
+      "countryCode": "US",
+      "countryName": "United States",
+      "regionName": "North America",
+      "airports": [
+        {
+          "iataCode": "GBO",
+          "name": "Baltimore Greenbelt T"
+        },
+        {
+          "iataCode": "BWI",
+          "name": "Baltimore/Washington International Thurg"
+        },
+        {
+          "iataCode": "BZS",
+          "name": "Buzzards Pt S"
+        },
+        {
+          "iataCode": "MTN",
+          "name": "Glenn L Martin"
+        },
+        {
+          "iataCode": "DCA",
+          "name": "Ronald Reagan Washington National Airpor"
+        },
+        {
+          "iataCode": "IAD",
+          "name": "Washington Dulles International Airport"
+        }
+      ]
+    },
+    {
+      "iataCode": "SIA",
+      "name": "Xi An",
+      "countryCode": "CN",
+      "countryName": "China",
+      "regionName": "Asia Pacific",
+      "airports": [
+        {
+          "iataCode": "XIY",
+          "name": "Xianyang"
+        },
+        {
+          "iataCode": "SIA",
+          "name": "Xiguan"
+        }
+      ]
+    }
+  ]
+}

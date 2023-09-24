@@ -1,0 +1,21 @@
+comments:
+  active: true
+  excludes: "**/com/sabre/**"
+
+exceptions:
+  TooGenericExceptionThrown:
+    excludes: "**/com/sabre/**"
+
+formatting:
+  MaximumLineLength:
+    excludes: "**/com/sabre/**"
+
+naming:
+  ConstructorParameterNaming:
+    excludes: "**/com/sabre/**"
+  VariableNaming:
+    excludes: "**/com/sabre/**"
+
+style:
+  MaxLineLength:
+    excludes: "**/com/sabre/**"

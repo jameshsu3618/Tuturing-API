@@ -1,0 +1,232 @@
+# {{ ansible_managed }}
+
+#
+# This file must maintain YAML format although it will be treated as a template
+# in Ansible.
+#
+# Any variable will be replaced with the appropriate value during
+# deployment (per environment vars/secrets are kept in cloudops repository).
+#
+
+spring:
+  profiles:
+    active: dev,local
+  application:
+    name: api
+  # json
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false
+  # storage
+  jpa:
+    # allow db relations to work in view
+    open-in-view: true
+    show_sql: false
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      ddl-auto: create-drop
+      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+        generate_statistics: true
+        format_sql: false
+        jdbc:
+          time_zone: UTC
+        globally_quoted_identifiers: true
+        globally_quoted_identifiers_skip_column_definitions: true
+  datasource:
+    url: {{ api_spring_datasource_url }}
+    driverClassName: {{ api_spring_datasource_driverclassname }}
+    username: {{ api_spring_datasource_username }}
+    password: {{ api_spring_datasource_password }}
+    auto-commit: false
+    hikari:
+      connectionTimeout: 5000
+      maximumPoolSize: 10
+  # logging
+  output:
+    ansi:
+      enabled: always
+
+  # Liquibase
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog/db.changelog-master.json
+
+  #redis Configuration
+  redis:
+    host: {{ api_spring_redis_host }}
+    port: {{ api_spring_redis_port }}
+    ssl: false
+
+# logging
+logging:
+  level:
+    root: ERROR
+    com.tuturing: ERROR
+  path:
+
+# server
+server:
+  port: 8080
+  forward-headers-strategy: native
+  http2:
+    enabled: true
+  compression:
+    enabled: true
+  undertow:
+    accesslog:
+      enabled: true
+      dir: logs
+      pattern: combined
+    compression:
+      enabled: true
+      min-response-size: 1024
+  error:
+    whitelabel:
+      enabled: false
+    include-stacktrace: never
+
+management:
+  server:
+    port: 8081
+  security:
+    enabled: true
+  health:
+    redis:
+      enabled: true
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when-authorized
+      show-components: when-authorized
+      sensitive: true
+      enabled: true
+      roles: SUPER_ADMIN
+    info:
+      sensitive: true
+      enabled: true
+    metrics:
+      enabled: true
+  metrics:
+    distribution:
+      percentiles-histogram:
+        all: true
+      percentiles:
+        all: 0.001,0.25,0.5,0.75,0.95,0.999
+    export:
+      influx:
+        enabled: false
+        db: {{ api_management_metrics_export_influx_db }}
+        uri: {{ api_management_metrics_export_influx_uri }}
+        # default settings:
+        # auto-create-db: true
+        # batch-size: 10000
+        # compressed: true
+        # connect-timeout:
+        # consistency: one
+        # num-threads: 2
+        # password: mysecret
+        # user-name: myusername
+        # read-timeout: 10s
+        # retention-policy: my_rp
+        # step: 1m
+
+# jolokia
+jolokia:
+  config:
+    debug: false
+  endpoints:
+    jolokia:
+    enabled: false
+
+tuturing:
+  maintenance:
+    enabled: false
+  # api (java/kotlin)
+  api-base-url: {{ api_tuturing_api_base_url }}
+  # ui (javascript)
+  app-base-url: {{ api_tuturing_app_base_url }}
+  # assets
+  cdn-base-url: {{ api_tuturing_cdn_base_url }}
+  sendgrid:
+    api-key: {{ lookup('aws_secret', aws_sm_prefix + 'sendgrid', region=instance_region) | from_json | json_query('\"api-key\"') }}
+    api-key-id: {{ lookup('aws_secret', aws_sm_prefix + 'sendgrid', region=instance_region) | from_json | json_query('\"api-key-id\"') }}
+    host: {{ lookup('aws_secret', aws_sm_prefix + 'sendgrid', region=instance_region) | from_json | json_query('host') }}
+    apiVersion: {{ lookup('aws_secret', aws_sm_prefix + 'sendgrid', region=instance_region) | from_json | json_query('apiVersion') }}
+    warmingSchedule:
+      scheduler-enabled: {{ lookup('aws_secret', aws_sm_prefix + 'sendgrid', region=instance_region) | from_json | json_query('warmingSchedule_scheduler_enabled') }}
+      lock-duration-seconds: 3600 # 1 hour
+      schedule: "0 0 * * * *" # every hour
+#  recaptcha:
+#    secretKey: {{ api_tuturing_recaptcha_secret_key }}
+#    scoreThreshold: 0.5
+#    host: https://www.google.com/recaptcha/api/siteverify
+  aws:
+    sqs:
+      region: us-west-2
+      access-key: {{ api_tuturing_aws_sqs_access_key }}
+      secret-key: {{ api_tuturing_aws_sqs_secret_key }}
+      endpoint: {{ api_tuturing_aws_sqs_endpoint }}
+    kms:
+      region: us-west-2
+      access-key: {{ api_tuturing_aws_kms_access_key }}
+      secret-key: {{ api_tuturing_aws_kms_secret_key }}
+      endpoint: {{ api_tuturing_aws_kms_endpoint }}
+      key-id: {{ api_tuturing_aws_kms_key_id }}
+  stripe:
+    account-id: {{ api_tuturing_stripe_account_id }}
+    api-key: {{ api_tuturing_stripe_api_key }}
+  autocomplete:
+    airport-limit: 3
+  handlebars:
+    template-path: /templates/
+  emails:
+    queue-name: {{ api_tuturing_emails_queue_name }}
+    default-sender: tuturing <noreply@tuturing.com>
+    user-on-boarding:
+      template: d-487ec727c3f54654a3e65ef6ea8c30c2
+      subject: tuturing Registration Complete
+    user-verification:
+      template: d-e5f60b13bb6541588bd3a7a11d63cb45
+      subject: tuturing Registration
+      expiration: +1382400000
+    password-change:
+      template: d-1677ea044e9d405f95a9e5abe8cf451d
+      subject: tuturing Password Change
+    password-reset:
+      subject: tuturing Password Reset
+      trigger:
+        template: d-8786b80a45a4496081a38b940b578a2e
+        expiration: +3600000
+      success:
+        template: d-fd5bb5173f9347348afba21e06acf25a
+  orders:
+    receipt-expiration-time: 90000
+  security:
+    oauth:
+      access-token-validity-seconds: 3600
+      refresh-token-validity-seconds: 2592000
+      authorized-grant-types: password,refresh_token,client_credentials
+    jwt:
+      issuer: tuturing
+      public-key: |
+        {{ api_tuturing_security_jwt_public_key | indent(width=8) }}
+      private-key: |
+        {{ api_tuturing_security_jwt_private_key | indent(width=8) }}
+    cors:
+      allow-credentials: true
+      allowed-origins: "*"
+      allowed-headers: "*"
+      allowed-methods: "*"
+      exposed-headers: "content-length"
+      max-age: 3600
+      path: "/**"
+    password:
+      min-length: 6
