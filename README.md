@@ -174,12 +174,12 @@ Make sure to set new changeset id.
 ```json
   {
     "changeSet": {
-      "id": "1585900949054-1",
-      "author": "Wojciech (manual)",
+      "id": "1213124-1",
+      "author": "James",
       "changes": [
         {
           "sqlFile": {
-            "path": "scripts/dkNumbers2.sql"
+            "path": "scripts/dknums.sql"
           }
         }]
 
